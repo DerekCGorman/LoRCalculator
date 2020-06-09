@@ -1,0 +1,99 @@
+/* OVERALL CSS OF THE PAGE */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(30,23,63);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+*:focus {
+  outline: 0;
+}
+/* OVERALL CSS OF THE PAGE END */
+
+/* NAVBAR ELEMENTS */
+.navBar{
+    position: static;
+    height: 100px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(22,13,51);
+  }
+  
+li {
+  float: left;
+}
+  
+li a {
+  font-family: 'Abel', sans-serif;
+  font-size: 40px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* NAVBAR ELEMENTS END */
+
+/* CONTAINERS */
+#topTextContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+#cardContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inputsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#totalContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#cashContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* CONTAINERS END */
+
+/* MISC */
+h1{
+    font-family: 'Abel', sans-serif;
+    color: white;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+input{
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    margin-right: 150px;
+}
+/* MISC END */

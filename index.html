@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/index.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="imgs/champCard.png">
+
+    <title>LoR Card Calculator</title>
+</head>
+<body>
+    <!--Nav Bar-->
+    <div class="navBar">
+        <ul>
+            <li><a href="index.html">LCC</a></li>
+        </ul>
+    </div>
+    <!--NavBar End-->
+
+    <!--Title Text-->
+    <div id="topTextContainer">
+        <h1>Please select the number of cards you need</h1>
+    </div>
+    <!--Title Text End-->
+
+    <!--Images-->
+    <div id="cardContainer">
+        <img src="imgs/commonCard.png">
+        <img src="imgs/rareCard.png">
+        <img src="imgs/epicCard.png">
+        <img src="imgs/champCard.png">
+    </div>
+    <!--Images End-->
+
+    <!--Inputs and other containers-->
+    <div id="inputsContainer">
+        <input id="commonAmt" type="text" maxlength="3">
+        <input id="rareAmt" type="text" maxlength="3">
+        <input id="epicAmt" type="text" maxlength="3">
+        <input id="champAmt" type="text" maxlength="3">
+    </div>
+
+    <div id="totalContainer">
+        <h1 id="totalText">Coins Needed: 0</h1>
+    </div>
+
+    <div id="cashContainer">
+        <h1 id="cashTotal">To own every card in the game as of the bilgewater update, it would cost you 23820 coins or $220</h1>
+    </div>
+    <!--Inputs and other containers end-->
+
+    <script src="js/index.js"></script>
+</body>
+</html>
